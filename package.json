@@ -1,6 +1,6 @@
 {
   "name": "nestjs-upstash-qstash",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Qstash module for NestJS",
   "author": "Fernando Dorantes <fernando@dorant.es>",
   "main": "dist/index.js",

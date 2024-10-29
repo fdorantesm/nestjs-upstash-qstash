@@ -74,7 +74,7 @@ Inject qstash client into a service:
 ```ts
 @Injectable()
 export class AppService {
-  constructor(@InjectPolly() private readonly qStash: QstashClient) {}
+  constructor(@InjectQstash() private readonly qStash: QstashClient) {}
 
   sayHello() {
     return this.qStash.publishJSON({
